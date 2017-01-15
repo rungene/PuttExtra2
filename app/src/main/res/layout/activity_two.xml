@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    tools:context="day2.rungene.com.puttextra2.Activity_Two">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWelcom"
+        android:layout_marginTop="15dp"
+        android:text="Welcome Bro"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEmail"
+        android:layout_marginTop="15dp"
+        android:text="Ur Email:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/tvWelcom"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPass"
+        android:layout_marginTop="10dp"
+        android:text="Ur Password:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/tvEmail"
+        />
+
+
+</RelativeLayout>
